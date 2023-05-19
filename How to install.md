@@ -34,6 +34,14 @@
     ccmake -DITK_USE_REVIEW=ON ..
     ```
     nhấn C và Enter để bắt đầu. Bật tùy chọn "Module_RTK=ON" và nhấn c để cấu hình sau đó nhấn g để xác nhận.
+* Biên dịch mã
+    ```c++
+    make -j4
+    ```
+* Cài đặt mã nguồn:
+    ```c++
+    sudo make install
+    ```
 
 
 ## 2. Cài đặt VGate trên máy ảo VirtualBox
